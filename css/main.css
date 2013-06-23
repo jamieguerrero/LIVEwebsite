@@ -1,0 +1,436 @@
+*{
+  margin:0px;
+  padding:0px;
+  list-style:none;
+  font-family: 'Nunito', san-serif;
+}
+body{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  font-family: 'Nunito', sans-serif;
+}
+
+div#wrapper {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+h1 {
+  font-family: 'Raleway', san-serif;
+  color: #00ACEC;
+  font-size: 52px;
+}
+
+h2 {
+  font-family: 'Raleway', san-serif;
+}
+
+h3 {
+  font-family: 'Raleway', san-serif;
+}
+
+div.page-header {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+.scrolldown {
+  position: absolute;
+  z-index: 5;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  bottom: 0px;
+}
+
+.scrolldown a {
+  text-decoration: none;
+  color:  white;
+}
+
+.scrolldown a:hover {
+  text-decoration: none;
+  color:  white;
+}
+
+/*======================== Carousel====================*/
+
+div#myCarousel {
+  margin-bottom: 0px !important;
+  position: relative;
+}
+
+.carousel .item {
+  height: auto;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel {
+  margin-bottom: 0px !important;
+}
+/*=========================== End of Carousel ===========================*/
+
+/*=========================== Nav Bar ===========================*/
+
+a.brand {
+  width: 150px;
+  height: auto;
+}
+
+a.btn {
+  margin-top: 25px !important;
+}
+
+div#header {
+  background-color: white;
+  color: white;
+  width:100%;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 0px !important;
+  text-align: right;
+  border-bottom-style: solid;
+  border-bottom-width: 8px;
+  border-bottom-color: rgba(0, 164, 228, 0.9);
+}
+
+.navbar .container {
+width: 80%;
+}
+
+div#nav-collapse{
+  background-color: white;
+  position:r;
+  z-index: 1;
+}
+
+ul.nav {
+  font-family: 'Raleway', san-serif;
+  font-size: 20px;
+  margin: 20px 0px 0px 0px !important;
+  background-color: white;
+  margin-left: 20%
+}
+
+.navbar .nav > li > a:hover {
+  color: #00A4E4;
+}
+
+.navbar-inner{
+  background-color: #ffffff; /* background color will be black for all browsers */
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+  z-index: 10;
+}
+
+b.caret {
+  vertical-align: top;
+}
+
+/* Makes hover dropdown menu 
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;
+}
+*/
+ul.dropdown-menu li {
+    text-align: left !important;
+    font-size: 16px;
+}
+/* End of hover dropdown menu */
+/*=========================== End of Nav Bar ===========================*/
+
+/*=========================== Splash Page ===========================*/
+
+/*Titles Style*/
+div.titleslide{
+  text-align: center;
+}
+
+span.slidetitle {
+  opacity: 0.80;
+}
+
+/*Content Slide Title (Not the image slides)*/
+
+div.contentslide {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20%; /* Offsets scrollspy */
+  margin-top: -15%; /* Offsets scrollspy */
+}
+
+img.arrowbutton {
+  padding-top: 5%;
+  height: 33px;
+  width: 72px;
+}
+
+img.partnerlogo{
+    margin-right: 20px;
+    float: left;
+    height: 100px;
+    width: auto;
+  }
+
+partnerCarousel {
+  text-align: center;
+}
+
+div.well{
+  width: 400px;
+  margin: 0px auto;
+}
+
+img.partnerlogo {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+img.partnerlogo:hover {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+
+div.partnerbox {
+  float: left;
+  margin-left: 15%;
+}
+
+div.us {
+  padding-bottom: 100px;
+}
+
+div.googlemap {
+  width: 100%;
+  height: 200px;
+}
+
+/* This is the Learn More / About Us Button! */
+span.button {
+  padding: 10px;
+  background-color: #00A4E4;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  font-family: 'Raleway', san-serif;
+}
+
+span.partnerbutton {
+  padding: 10px;
+  background-color: #00A4E4;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Raleway', san-serif;
+  float: left;
+}
+
+a.button:hover{
+  text-decoration: none;
+}
+
+/*=========================== End of Splash Page ===========================*/
+
+/*=========================== Competition Page ===========================*/
+div.wrapper {
+  width: 80%;
+  margin: 0px auto;
+  padding-bottom: 80px;
+}
+
+/*Competition Styles*/
+
+div.hotelpic {
+  text-align: center;
+}
+
+div.hotelinfo {
+  font-size: 16px;
+}
+
+div.speakerbox {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-style: solid;
+  border-top-width: 8px;
+  border-top-color: #00ACEC;
+}
+
+/*=========================== End of Competition Page ===========================*/
+
+/*=========================== Competition & Delegates Styles ===========================*/
+
+div.wrapper {
+  padding-top: 80px;
+}
+
+/*=========================== End of Competition & Delegates Styles ===========================*/
+
+/*=========================== Partner Styles ===========================*/
+
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+img.currentpartner {
+  width: auto;
+  height: 100px;
+}
+
+div.partnerswrapper {
+  width: 60%;
+  margin: 0px auto;
+}
+
+div.partners {
+  margin: 0px auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.past {
+  margin-left: 45px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: auto;
+}
+
+/*=========================== End of Partner Styles ===========================*/
+
+/*=========================== Contact Styles ===========================*/
+
+iframe#frame {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+/*=========================== End of Contact Styles ===========================*/
+
+/*=========================== Our Team Styles ===========================*/
+
+img.execsize {
+  width:200px;
+  height:200px;
+}
+
+img.subfunctionimg {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+.role {
+  color: #00ACEC;
+}
+
+.teamheader {
+  margin: 0px auto;
+}
+
+/*=========================== End of Our Team Styles ===========================*/
+
+
+/*======================== Footer ====================*/
+
+#footer {
+  padding: 20px;
+  color: white;
+  background-color: #00A4E4;
+  margin-bottom:-90px;
+  margin-top:-10px;
+}
+
+#footer a{
+  color: white;
+  text-decoration: none;
+}
+
+#footer a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+span.copyright {
+  float: right;
+}
+
+/*======================== End of Footer ====================*/
+
+/**this is the photos for steller**/
+
+.photo {
+      background-attachment:fixed;
+      background-position: 50% 10%;
+      background-repeat: no-repeat;
+      height: 550px;
+      position: relative;
+      background-size: 130%; /*Fixes the parallax photo size, but we need better sizes*/
+    }
+
+    .phone {
+      background-image: url(../images/2.jpg);
+    }
+    .summer {
+      background-image: url(../images/4.jpg);
+    }
+    .hat{
+      background-image: url(../images/3.jpg);
+    }
+    .spring{
+      background-image: url(../images/1.jpg);
+    }
+
+#frame{
+  position: relative;
+  width:100%;
+  height:300px;
+  margin-top:80px;
+}
+
+/* Isotope */
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.element {
+  margin: 15px;
+}
+
+.execname {
+  font-size: 1.25em;
+  position: absolute;
+  top: 170px;
+  left: 10px;
+  color: white;
+}
+
+#container {
+  width: 100%;
+  margin-left: 3%;
+}
+
+
+ul#filters {
+  text-align: center;
+}
+
+div.modal {
+  margin-top: 15%;
+}

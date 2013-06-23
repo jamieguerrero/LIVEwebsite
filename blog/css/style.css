@@ -1,0 +1,104 @@
+/*Font*/ 
+
+body{
+	font-family: 'Nunito', sans-serif;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+}
+
+/* Nav Bar */
+.navbar-inner {
+	background-color: #ffffff; /* background color will be black for all browsers */
+	background-image: none;
+	background-repeat: no-repeat;
+	filter: none;
+}
+
+.navbar .nav > li > a {
+	color:black;
+	font-size:13px;
+	font-weight:900;
+	padding:10px 12px;
+	text-transform:uppercase;
+}
+
+.navbar .nav > li > a:hover {
+	color: #00A4E4;
+}
+
+/*Global Styles */
+ol {
+	font-family: 'Nunito', san-serif;
+}
+
+/*li.page, #section-1 {
+	border: solid black 5px;
+	padding-top: 150px;
+	padding-bottom: 30px;
+}*/
+
+div.left {
+	width: 40%;
+	float: left;
+	padding-top: 10%;
+	padding-left: 30px;
+}
+
+div.right {
+	width: 55%;
+	float: right;
+	padding-top: 16%;
+	padding-right: 30px;
+}
+
+header.masthead {
+	padding-top: 150px;
+	padding-bottom: 20px;
+}
+
+.post {
+  position: relative;
+  margin-bottom: 42px;
+}
+.post:after {
+  display: block;
+  content: '';
+  width: 100px;
+  height: 1px;
+  margin: 20px auto;
+  background-color: #eee;
+  margin-top: 42px;
+
+i {
+	width: 20px;
+	height: auto;
+}
+
+/*Pretty Colors. Just to tell difference between curtain.js pages Take this out later*/
+
+li#live-what {
+	background-color: #CAC5C6;
+}
+
+li#live-delegates {
+	background-color: #CAC5C6;
+}
+
+li#live-us {
+	background-color: #CAC5C6;
+}
+
+
+/*Splash Main Remove this later*/
+li#live-home{
+	text-align: center;
+	padding-top: 15%;
+}
+
+/*Conference Remove this later*/
+img.hotelimg {
+	width:500px;
+	height:400px;
+}
