@@ -52,33 +52,6 @@ if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
   <button class="btn btn-primary" type="submit"> Send </button>
 </form>
 
-<?php
-  if((isset($_POST["Name"])) and (isset($_POST["Email"])) and isset($_POST["content"])){
-    $to = "";
-    $name = $_POST["Name"];
-    $email = $_POST["Email"];
-    $content = $_POST["content"];
-    $headers = "From: ". $email;
-
-    if((empty($name)) or (empty($email)) or (empty($content))){
-      print "<h3><span class='badge badge-warning'>Please fill in all fields</span></h3>";
-    }
-    else{
-      $body = $content;
-      $subject = 'Contact form from: '.$name;
-
-      if(mail($to, $subject, $body, $headers)){
-        print "<h3><span class='badge badge-success'>Thanks for contacting us we'll get back to you shortly</span></h3>";
-        header('location: index.php');
-      }
-      else{
-          print "<h3><span class='badge badge-warning'>Contact form not sent, Please try again</span></h3>";
-      }
-    }
-  }
-
-?>
-
 </div>
 
 <br><br><br>
