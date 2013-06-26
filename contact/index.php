@@ -54,7 +54,7 @@ if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
 
 <?php
   if((isset($_POST["Name"])) and (isset($_POST["Email"])) and isset($_POST["content"])){
-    $to = "jayengineer6@gmail.com";
+    $to = "";
     $name = $_POST["Name"];
     $email = $_POST["Email"];
     $content = $_POST["content"];
